@@ -1,4 +1,4 @@
-# EduGenie – The Smart Lecture Companion
+# Asnora – The Smart Lecture Companion
 
 A modern, minimal web application that helps students instantly understand lecture transcripts using AI-powered analysis.
 
@@ -25,7 +25,7 @@ A modern, minimal web application that helps students instantly understand lectu
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd aitutor
+cd asnora
 ```
 
 2. Install dependencies:
@@ -50,7 +50,7 @@ npm run dev
 ## 📦 Project Structure
 
 ```
-aitutor/
+asnora/
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx
@@ -109,4 +109,4 @@ ISC
 
 ## 👥 Team
 
-Built with ❤️ using n8n + OpenAI | Team EduGenie
+Built with ❤️ using n8n + OpenAI | Team Asnora

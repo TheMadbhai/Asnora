@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p className="footer-text">
-        Built with ❤️ using n8n + OpenAI | Team EduGenie
+        Built with ❤️ using n8n + OpenAI | Team Asnora
       </p>
     </footer>
   );
