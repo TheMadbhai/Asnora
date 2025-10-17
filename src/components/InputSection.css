@@ -1,0 +1,118 @@
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-black);
+  letter-spacing: 0.01em;
+}
+
+.transcript-input,
+.email-input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 0.9375rem;
+  font-family: 'Inter', sans-serif;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-grey-300);
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.2s ease;
+  line-height: 1.6;
+}
+
+.transcript-input {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.transcript-input:focus,
+.email-input:focus {
+  border-color: var(--color-black);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.transcript-input::placeholder,
+.email-input::placeholder {
+  color: var(--color-grey-400);
+}
+
+.upload-helper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -0.5rem;
+}
+
+.upload-btn {
+  background: none;
+  border: none;
+  font-size: 0.8125rem;
+  color: var(--color-grey-600);
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: all 0.2s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.upload-btn:hover {
+  color: var(--color-black);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.01em;
+  margin-top: 0.5rem;
+}
+
+.submit-btn:hover {
+  background-color: var(--color-grey-800);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+.helper-text {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--color-grey-500);
+  margin-top: -0.5rem;
+}
+
+@media (max-width: 768px) {
+  .transcript-input {
+    min-height: 150px;
+    font-size: 0.875rem;
+  }
+
+  .email-input {
+    font-size: 0.875rem;
+  }
+
+  .submit-btn {
+    font-size: 0.9375rem;
+  }
+}
